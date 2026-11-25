@@ -887,6 +887,12 @@ tbody tr:hover td:first-child {
   font-weight: 600;
 }
 
+.dialog-prodi-tag.pai {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+}
+
 .dialog-text {
   font-size: 13px;
   color: var(--text-muted);
@@ -1052,4 +1058,477 @@ dialog[open] {
   font-size: 11px;
   color: var(--text-faint);
   line-height: 1.6;
+}
+
+/* ==========================================================================
+   Chart View: Bagan Prasyarat per Semester
+   Kotak MK wajib diberi warna rose yang makin pekat tiap semester.
+   ========================================================================== */
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  --edge-pre: var(--primary);
+  --edge-next: #2563EB;
+  --edge-idle: #D4D4D8;
+  --canvas-bg: #FAFAFA;
+  --canvas-dot: #E4E4E7;
+
+  /* Skala semester (terang): putih -> rose -> crimson */
+  --sem1-bg: #FFFFFF;  --sem1-fg: #18181B; --sem1-bd: #E4E4E7;
+  --sem2-bg: #FFF1F2;  --sem2-fg: #4C0519; --sem2-bd: #FFE4E6;
+  --sem3-bg: #FFE4E6;  --sem3-fg: #4C0519; --sem3-bd: #FECDD3;
+  --sem4-bg: #FECDD3;  --sem4-fg: #4C0519; --sem4-bd: #FDA4AF;
+  --sem5-bg: #FDA4AF;  --sem5-fg: #4C0519; --sem5-bd: #FB7185;
+  --sem6-bg: #FB7185;  --sem6-fg: #4C0519; --sem6-bd: #F43F5E;
+  --sem7-bg: #E11D48;  --sem7-fg: #FFFFFF; --sem7-bd: #BE123C;
+  --sem8-bg: #9F1239;  --sem8-fg: #FFFFFF; --sem8-bd: #881337;
+}
+
+[data-theme="dark"] .chart-card {
+  --edge-next: #60A5FA;
+  --edge-idle: #3F3F46;
+  --canvas-bg: #0F0F12;
+  --canvas-dot: #1F1F23;
+
+  /* Skala semester (gelap): zinc -> rose menyala */
+  --sem1-bg: #18181B;  --sem1-fg: #FAFAFA; --sem1-bd: #27272A;
+  --sem2-bg: #1F1517;  --sem2-fg: #FAFAFA; --sem2-bd: #2E1A1F;
+  --sem3-bg: #2A1419;  --sem3-fg: #FFE4E6; --sem3-bd: #3B1520;
+  --sem4-bg: #3B1520;  --sem4-fg: #FFE4E6; --sem4-bd: #4C0519;
+  --sem5-bg: #4C0519;  --sem5-fg: #FFE4E6; --sem5-bd: #6B0A28;
+  --sem6-bg: #881337;  --sem6-fg: #FFFFFF; --sem6-bd: #9F1239;
+  --sem7-bg: #BE123C;  --sem7-fg: #FFFFFF; --sem7-bd: #E11D48;
+  --sem8-bg: #E11D48;  --sem8-fg: #FFFFFF; --sem8-bd: #F43F5E;
+}
+
+/* ---------- Toolbar, ringkasan, legenda ---------- */
+.chart-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  min-height: 52px;
+}
+
+.chart-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.chart-info-name {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+.chart-info-stat {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.chart-info-stat.pre { color: var(--edge-pre); background: var(--primary-light); }
+.chart-info-stat.next { color: var(--edge-next); background: var(--badge-aktu-bg); }
+
+.chart-info-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.chart-info-btn {
+  font: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.chart-info-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+.chart-legend {
+  display: flex;
+  gap: 14px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.legend-item { display: inline-flex; align-items: center; gap: 6px; }
+
+.legend-line {
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.legend-line.pre { background: var(--edge-pre); }
+.legend-line.next { background: var(--edge-next); }
+
+.chart-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px 4px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.chart-notice b { color: var(--text-main); font-family: 'Outfit', sans-serif; }
+
+.chart-notice.is-hint {
+  margin: 12px 16px 0;
+  padding: 8px 12px;
+  font-size: 12px;
+  background: var(--primary-light);
+  border-radius: var(--radius-md);
+}
+
+.chart-notice.is-hint i { color: var(--primary); }
+
+/* ---------- Navigasi semester ---------- */
+.chart-semnav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px 14px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.semnav-track {
+  flex: 1;
+  display: flex;
+  padding: 3px;
+  background: var(--bg-input);
+  border-radius: 999px;
+  min-width: 0;
+}
+
+.semnav-btn {
+  flex: 1;
+  min-width: 28px;
+  height: 30px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.semnav-btn:hover { color: var(--primary); }
+
+.semnav-btn.in-view {
+  background: var(--bg-card-solid);
+  color: var(--text-main);
+}
+
+.semnav-btn.run-start { border-top-left-radius: 999px; border-bottom-left-radius: 999px; }
+.semnav-btn.run-end { border-top-right-radius: 999px; border-bottom-right-radius: 999px; }
+
+.semnav-pilihan {
+  flex-shrink: 0;
+  height: 36px;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-light);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.semnav-pilihan i { font-size: 10px; margin-left: 4px; }
+.semnav-pilihan:hover { background: var(--primary); color: #FFFFFF; }
+
+/* ---------- Kanvas ---------- */
+.chart-scroll {
+  overflow: auto;
+  max-height: 78vh;
+  background-color: var(--canvas-bg);
+  background-image: radial-gradient(var(--canvas-dot) 1.2px, transparent 1.2px);
+  background-size: 18px 18px;
+  background-attachment: local;
+}
+
+.chart-canvas {
+  position: relative;
+  width: max-content;
+  min-width: 100%;
+}
+
+.chart-edges {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.chart-edges path {
+  fill: none;
+  stroke: var(--edge-idle);
+  stroke-width: 1.5;
+  transition: opacity 0.2s, stroke 0.2s;
+}
+
+.chart-edges.has-selection path { opacity: 0.1; }
+
+.chart-edges path.is-pre,
+.chart-edges path.is-next {
+  opacity: 1;
+  stroke-width: 2.25;
+}
+
+.chart-edges path.is-pre { stroke: var(--edge-pre); }
+.chart-edges path.is-next { stroke: var(--edge-next); }
+
+.chart-edges path.via-elective { opacity: 0; }
+
+.chart-edges path.via-elective.is-pre,
+.chart-edges path.via-elective.is-next { opacity: 0.9; }
+
+.chart-columns {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 8px 40px 32px 24px;
+}
+
+.chart-row {
+  display: flex;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.chart-col {
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-col-head {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 14px 0 12px;
+  margin-bottom: 4px;
+  text-align: center;
+  background: linear-gradient(var(--canvas-bg) 75%, transparent);
+}
+
+.chart-col-title {
+  display: block;
+  font-family: 'Outfit', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-main);
+}
+
+.chart-col-meta {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.chart-col-subhead {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.chart-col-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ---------- Pita MK pilihan ---------- */
+.chart-band.pilihan {
+  padding-top: 22px;
+  border-top: 1px dashed var(--border-hover);
+}
+
+.chart-band-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.chart-band-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.chart-free { margin-top: 18px; }
+.chart-band-head + .chart-free { margin-top: 0; }
+
+.chart-free-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  gap: 12px 56px;
+  max-width: calc(180px * 8 + 56px * 7);
+}
+
+/* ---------- Kotak mata kuliah ---------- */
+.chart-node {
+  --node-bg: var(--sem1-bg);
+  --node-fg: var(--sem1-fg);
+  --node-bd: var(--sem1-bd);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  min-height: 66px;
+  padding: 10px 12px;
+  text-align: center;
+  font: inherit;
+  color: var(--node-fg);
+  background: var(--node-bg);
+  border: 1px solid var(--node-bd);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 2px 6px -2px rgba(225, 29, 72, 0.08);
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s, opacity 0.2s;
+}
+
+.chart-band.wajib .chart-col[data-sem="2"] .chart-node { --node-bg: var(--sem2-bg); --node-fg: var(--sem2-fg); --node-bd: var(--sem2-bd); }
+.chart-band.wajib .chart-col[data-sem="3"] .chart-node { --node-bg: var(--sem3-bg); --node-fg: var(--sem3-fg); --node-bd: var(--sem3-bd); }
+.chart-band.wajib .chart-col[data-sem="4"] .chart-node { --node-bg: var(--sem4-bg); --node-fg: var(--sem4-fg); --node-bd: var(--sem4-bd); }
+.chart-band.wajib .chart-col[data-sem="5"] .chart-node { --node-bg: var(--sem5-bg); --node-fg: var(--sem5-fg); --node-bd: var(--sem5-bd); }
+.chart-band.wajib .chart-col[data-sem="6"] .chart-node { --node-bg: var(--sem6-bg); --node-fg: var(--sem6-fg); --node-bd: var(--sem6-bd); }
+.chart-band.wajib .chart-col[data-sem="7"] .chart-node { --node-bg: var(--sem7-bg); --node-fg: var(--sem7-fg); --node-bd: var(--sem7-bd); }
+.chart-band.wajib .chart-col[data-sem="8"] .chart-node { --node-bg: var(--sem8-bg); --node-fg: var(--sem8-fg); --node-bd: var(--sem8-bd); }
+
+/* MK pilihan: kartu netral bergaris putus-putus */
+.chart-node.elective {
+  --node-bg: var(--bg-card-solid);
+  --node-fg: var(--text-main);
+  --node-bd: var(--border-hover);
+  border-style: dashed;
+  box-shadow: none;
+}
+
+.chart-node:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px -6px rgba(225, 29, 72, 0.35);
+}
+
+.chart-node:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.chart-node-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.chart-node-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 9.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0.75;
+}
+
+.chart-node-code {
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+.chart-node-pai {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--badge-aktu-txt);
+  background: var(--badge-aktu-bg);
+  padding: 1px 5px;
+  border-radius: 999px;
+  margin-right: 2px;
+}
+
+/* Titik sambung di sisi kotak */
+.chart-node.has-in::before,
+.chart-node.has-out::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: 50%;
+  background: var(--bg-card-solid);
+  border: 1.5px solid var(--edge-idle);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.chart-node.has-in::before { left: -4.5px; }
+.chart-node.has-out::after { right: -4.5px; }
+
+/* ---------- Sorotan ---------- */
+.chart-columns.has-selection .chart-node { opacity: 0.28; }
+
+.chart-columns.has-selection .chart-node.is-selected,
+.chart-columns.has-selection .chart-node.is-pre,
+.chart-columns.has-selection .chart-node.is-next { opacity: 1; }
+
+.chart-node.is-selected {
+  box-shadow: 0 0 0 2px var(--canvas-bg), 0 0 0 4px var(--text-main), 0 8px 20px -8px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
+}
+
+.chart-node.is-pre { box-shadow: 0 0 0 2px var(--canvas-bg), 0 0 0 4px var(--edge-pre); }
+.chart-node.is-next { box-shadow: 0 0 0 2px var(--canvas-bg), 0 0 0 4px var(--edge-next); }
+
+.chart-node.is-pre::before, .chart-node.is-pre::after { border-color: var(--edge-pre); background: var(--edge-pre); }
+.chart-node.is-next::before, .chart-node.is-next::after { border-color: var(--edge-next); background: var(--edge-next); }
+.chart-node.is-selected::before, .chart-node.is-selected::after { border-color: var(--text-main); background: var(--text-main); }
+
+@media (max-width: 768px) {
+  .chart-row { gap: 40px; }
+  .chart-col { width: 160px; }
+  .chart-free-grid { grid-template-columns: repeat(auto-fill, 160px); gap: 12px 40px; }
+  .chart-legend { display: none; }
+  .chart-col-title { font-size: 16px; }
 }

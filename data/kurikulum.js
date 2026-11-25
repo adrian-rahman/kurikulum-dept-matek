@@ -16,7 +16,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 3,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601001",
@@ -33,7 +38,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601002",
@@ -52,7 +62,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601003",
@@ -71,7 +86,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601047",
@@ -92,7 +112,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601048",
@@ -114,7 +139,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601049",
@@ -134,7 +164,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCST601001",
@@ -159,7 +194,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "UIGE600003",
@@ -178,7 +218,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "UIGE600004",
@@ -201,7 +246,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 1,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA601005",
@@ -220,7 +270,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "SCMA601006",
@@ -240,7 +295,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "SCMA601007",
@@ -259,7 +319,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "SCMA601010",
@@ -274,7 +339,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2
+    }
   },
   {
     "kode": "SCPH601110",
@@ -291,7 +359,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "UIGE600007",
@@ -314,7 +387,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 2,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 2
+    }
   },
   {
     "kode": "SCAC602002",
@@ -333,7 +411,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCAC602020",
@@ -350,13 +431,17 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    },
+    "ujianPAI": "A10 – Matematika Keuangan"
   },
   {
     "kode": "SCAC602022",
     "nama": "Pemodelan Risiko 1",
     "sks": 3,
-    "semester": 3,
+    "semester": 4,
     "kategori": "Mata Kuliah Wajib Prodi",
     "prasyarat": [
       "Statistika Matematika 1"
@@ -369,7 +454,12 @@ window.kurikulumData = [
     "prodi": [
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3,
+      "Ilmu Aktuaria": 4
+    },
+    "ujianPAI": "A70 – Pemodelan dan Teori Risiko"
   },
   {
     "kode": "SCAC602023",
@@ -386,7 +476,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCAC602031",
@@ -404,7 +497,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCAC602033",
@@ -423,7 +519,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCAC602134",
@@ -440,7 +539,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCMA602008",
@@ -459,7 +561,12 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3,
+      "Statistika": 4,
+      "Ilmu Aktuaria": 3
+    }
   },
   {
     "kode": "SCMA602009",
@@ -474,7 +581,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3
+    }
   },
   {
     "kode": "SCMA602011",
@@ -489,7 +599,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3
+    }
   },
   {
     "kode": "SCMA602012",
@@ -504,7 +617,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3
+    }
   },
   {
     "kode": "SCMA602013",
@@ -519,7 +635,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3
+    }
   },
   {
     "kode": "SCMA602050",
@@ -534,13 +653,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3
+    }
   },
   {
     "kode": "SCST601002",
     "nama": "Statistika Matematika 1",
     "sks": 3,
-    "semester": 3,
+    "semester": 2,
     "kategori": "Mata Kuliah Wajib Departemen",
     "prasyarat": [
       "Kalkulus 1, Pengantar Sains Data, Logika dan Himpunan"
@@ -554,7 +676,13 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 3,
+      "Statistika": 2,
+      "Ilmu Aktuaria": 3
+    },
+    "ujianPAI": "A20 – Probabilitas dan Statistika"
   },
   {
     "kode": "SCST602004",
@@ -569,7 +697,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3
+    }
   },
   {
     "kode": "SCST602005",
@@ -589,7 +720,12 @@ window.kurikulumData = [
     "prodi": [
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3,
+      "Ilmu Aktuaria": 4
+    },
+    "ujianPAI": "A50 – Metode Statistika"
   },
   {
     "kode": "SCST602006",
@@ -604,7 +740,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3
+    }
   },
   {
     "kode": "SCST602007",
@@ -619,7 +758,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3
+    }
   },
   {
     "kode": "SCST602008",
@@ -634,7 +776,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 3
+    }
   },
   {
     "kode": "SCAC602004",
@@ -653,7 +798,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 4
+    },
+    "ujianPAI": "A60 – Matematika Aktuaria"
   },
   {
     "kode": "SCAC602005",
@@ -672,7 +821,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 4
+    }
   },
   {
     "kode": "SCAC602024",
@@ -692,7 +844,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 4
+    },
+    "ujianPAI": "A10 – Matematika Keuangan"
   },
   {
     "kode": "SCAC602105",
@@ -710,7 +866,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 4
+    }
   },
   {
     "kode": "SCAC602141",
@@ -725,7 +884,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 4
+    }
   },
   {
     "kode": "SCMA602016",
@@ -740,7 +902,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA602017",
@@ -755,7 +920,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA602051",
@@ -770,7 +938,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA602052",
@@ -785,13 +956,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA603015",
     "nama": "Geometri Analitik",
     "sks": 3,
-    "semester": 4,
+    "semester": 5,
     "kategori": "Mata Kuliah Wajib Prodi",
     "prasyarat": [
       "Aljabar Linier Elementer"
@@ -800,13 +974,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCST602003",
     "nama": "Statistika Matematika 2",
     "sks": 4,
-    "semester": 4,
+    "semester": 3,
     "kategori": "Mata Kuliah Wajib Departemen",
     "prasyarat": [
       "Statistika Matematika 1"
@@ -820,7 +997,13 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4,
+      "Statistika": 3,
+      "Ilmu Aktuaria": 4
+    },
+    "ujianPAI": "A20 – Probabilitas dan Statistika"
   },
   {
     "kode": "SCST602009",
@@ -835,7 +1018,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4
+    }
   },
   {
     "kode": "SCST602010",
@@ -850,7 +1036,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4
+    }
   },
   {
     "kode": "SCST602011",
@@ -865,7 +1054,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4
+    }
   },
   {
     "kode": "SCST602012",
@@ -884,7 +1076,12 @@ window.kurikulumData = [
     "prodi": [
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4,
+      "Ilmu Aktuaria": 5
+    },
+    "ujianPAI": "A50 – Metode Statistika"
   },
   {
     "kode": "SCST602013",
@@ -899,7 +1096,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4
+    }
   },
   {
     "kode": "SCST602014",
@@ -918,7 +1118,12 @@ window.kurikulumData = [
     "prodi": [
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4,
+      "Ilmu Aktuaria": 5
+    },
+    "ujianPAI": "A50 – Metode Statistika"
   },
   {
     "kode": "SCST602015",
@@ -933,7 +1138,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 4
+    }
   },
   {
     "kode": "SCAC603027",
@@ -952,7 +1160,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    },
+    "ujianPAI": "A60 – Matematika Aktuaria"
   },
   {
     "kode": "SCAC603028",
@@ -970,7 +1182,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    },
+    "ujianPAI": "A70 – Pemodelan dan Teori Risiko"
   },
   {
     "kode": "SCAC603030",
@@ -989,7 +1205,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    }
   },
   {
     "kode": "SCAC603032",
@@ -1009,7 +1228,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    }
   },
   {
     "kode": "SCAC603035",
@@ -1027,7 +1249,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    }
   },
   {
     "kode": "SCAC603116",
@@ -1045,7 +1270,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 5
+    },
+    "ujianPAI": "A30 – Ekonomi"
   },
   {
     "kode": "SCCH601101",
@@ -1064,13 +1293,18 @@ window.kurikulumData = [
       "Matematika",
       "Statistika",
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5,
+      "Statistika": 1,
+      "Ilmu Aktuaria": 1
+    }
   },
   {
     "kode": "SCMA602014",
     "nama": "Kalkulus Vektor",
     "sks": 2,
-    "semester": 5,
+    "semester": 4,
     "kategori": "Mata Kuliah Wajib Prodi",
     "prasyarat": [
       "Kalkulus 2"
@@ -1079,13 +1313,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA602020",
     "nama": "Analisis 2",
     "sks": 4,
-    "semester": 5,
+    "semester": 4,
     "kategori": "Mata Kuliah Wajib Prodi",
     "prasyarat": [
       "Analisis 1"
@@ -1094,7 +1331,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 4
+    }
   },
   {
     "kode": "SCMA603022",
@@ -1109,7 +1349,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603023",
@@ -1124,7 +1367,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603024",
@@ -1139,7 +1385,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603125",
@@ -1154,7 +1403,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603126",
@@ -1170,7 +1422,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603127",
@@ -1185,7 +1440,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603128",
@@ -1200,7 +1458,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603129",
@@ -1215,13 +1476,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 5
+    }
   },
   {
     "kode": "SCMA603130",
     "nama": "Aljabar Linier 2",
     "sks": 3,
-    "semester": 5,
+    "semester": 6,
     "kategori": "Mata Kuliah Pilihan",
     "prasyarat": [
       "Aljabar Linier 1",
@@ -1231,13 +1495,16 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA604021",
     "nama": "Metode Penelitian",
     "sks": 2,
-    "semester": 5,
+    "semester": 7,
     "kategori": "Mata Kuliah Wajib Prodi",
     "prasyarat": [
       "Lulus minimal 80 SKS"
@@ -1246,7 +1513,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCST603017",
@@ -1261,7 +1531,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603018",
@@ -1276,7 +1549,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603019",
@@ -1291,7 +1567,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603020",
@@ -1306,7 +1585,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603021",
@@ -1321,7 +1603,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603022",
@@ -1336,7 +1621,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCST603023",
@@ -1351,7 +1639,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 5
+    }
   },
   {
     "kode": "SCAC603101",
@@ -1370,7 +1661,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    }
   },
   {
     "kode": "SCAC603109",
@@ -1388,7 +1682,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    }
   },
   {
     "kode": "SCAC603113",
@@ -1403,7 +1700,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    }
   },
   {
     "kode": "SCAC603115",
@@ -1422,7 +1722,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    },
+    "ujianPAI": "A40 – Akuntansi"
   },
   {
     "kode": "SCAC603118",
@@ -1440,7 +1744,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    },
+    "ujianPAI": "A30 – Ekonomi"
   },
   {
     "kode": "SCAC603137",
@@ -1462,7 +1770,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    }
   },
   {
     "kode": "SCAC603138",
@@ -1480,7 +1791,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 6
+    }
   },
   {
     "kode": "SCMA603131",
@@ -1497,7 +1811,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603132",
@@ -1512,7 +1829,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603133",
@@ -1527,7 +1847,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603134",
@@ -1543,7 +1866,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603135",
@@ -1559,7 +1885,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603136",
@@ -1575,7 +1904,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603137",
@@ -1590,7 +1922,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCMA603138",
@@ -1609,7 +1944,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 6
+    }
   },
   {
     "kode": "SCAC603036",
@@ -1629,7 +1967,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    }
   },
   {
     "kode": "SCAC604112",
@@ -1646,7 +1987,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    }
   },
   {
     "kode": "SCAC604114",
@@ -1661,7 +2005,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    }
   },
   {
     "kode": "SCAC604117",
@@ -1679,7 +2026,11 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    },
+    "ujianPAI": "A40 – Akuntansi"
   },
   {
     "kode": "SCAC604119",
@@ -1697,7 +2048,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    }
   },
   {
     "kode": "SCAC604139",
@@ -1712,7 +2066,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 7
+    }
   },
   {
     "kode": "SCMA604139",
@@ -1728,7 +2085,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604140",
@@ -1743,7 +2103,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604141",
@@ -1760,7 +2123,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604142",
@@ -1776,7 +2142,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604143",
@@ -1792,7 +2161,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604144",
@@ -1807,7 +2179,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604145",
@@ -1826,7 +2201,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCMA604146",
@@ -1841,7 +2219,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 7
+    }
   },
   {
     "kode": "SCST603016",
@@ -1856,7 +2237,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 7
+    }
   },
   {
     "kode": "SCST604141",
@@ -1903,7 +2287,10 @@ window.kurikulumData = [
     ],
     "prodi": [
       "Ilmu Aktuaria"
-    ]
+    ],
+    "semesterProdi": {
+      "Ilmu Aktuaria": 8
+    }
   },
   {
     "kode": "SCMA604000",
@@ -1918,7 +2305,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Matematika"
-    ]
+    ],
+    "semesterProdi": {
+      "Matematika": 8
+    }
   },
   {
     "kode": "SCST603024",
@@ -1933,7 +2323,10 @@ window.kurikulumData = [
     "referensi": [],
     "prodi": [
       "Statistika"
-    ]
+    ],
+    "semesterProdi": {
+      "Statistika": 8
+    }
   },
   {
     "kode": "SCST603125",

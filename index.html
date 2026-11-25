@@ -101,6 +101,9 @@
           <button id="view-table-btn" class="view-btn" title="Tampilan Tabel" aria-label="Table View">
             <i class="fa-solid fa-list"></i>
           </button>
+          <button id="view-chart-btn" class="view-btn" title="Bagan Prasyarat" aria-label="Chart View">
+            <i class="fa-solid fa-diagram-project"></i>
+          </button>
         </div>
       </div>
 
@@ -165,6 +168,28 @@
               <!-- Injected via JavaScript -->
             </tbody>
           </table>
+        </div>
+      </div>
+
+      <!-- Chart View: Bagan Prasyarat per Semester (Hidden initially) -->
+      <div id="chart-view" class="chart-card" style="display: none;">
+        <div class="chart-toolbar">
+          <div class="chart-info" id="chart-info">
+            <i class="fa-solid fa-hand-pointer"></i>
+            <span>Klik mata kuliah untuk melihat rantai prasyarat &amp; mata kuliah yang dibukanya.</span>
+          </div>
+          <div class="chart-legend">
+            <span class="legend-item"><span class="legend-line pre"></span>Prasyarat</span>
+            <span class="legend-item"><span class="legend-line next"></span>Membuka</span>
+          </div>
+        </div>
+        <div class="chart-notice" id="chart-notice"></div>
+        <nav class="chart-semnav" id="chart-semnav" aria-label="Lompat ke semester"></nav>
+        <div class="chart-scroll" id="chart-scroll">
+          <div class="chart-canvas" id="chart-canvas">
+            <svg class="chart-edges" id="chart-edges" aria-hidden="true"></svg>
+            <div class="chart-columns" id="chart-columns"></div>
+          </div>
         </div>
       </div>
 
